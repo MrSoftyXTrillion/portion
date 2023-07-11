@@ -1,0 +1,148 @@
+/* COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    
+}
+/* COMMON CSS ENDS HERE======================================================================================== */
+
+
+/* DEALS OF THE DAY STARTS HERE */
+#dealsOfTheDay {
+    background-color: #E5E5E5;
+    border: 1px solid red;
+    height: 100vh;
+}
+#dealsOfTheDay .main {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#dealsOfTheDay .main .cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#dealsOfTheDay .main .cards .mainCard {
+    background-color: #A6AAB7;
+    display: inline-block;
+    margin: 0 30px;
+    width: calc(50% - 50px);
+}
+#dealsOfTheDay .main .cards .mainCard:first-child {
+    margin-left: 20px !important;
+    margin-right: 30px !important;
+}
+#dealsOfTheDay .main .cards .mainCard:last-child {
+    margin-left: 30px !important;
+    margin-right: 20px !important;
+}
+#dealsOfTheDay .main .cards .mainCard h1 {
+    color: #11161E;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    margin-left: 42px;
+}
+#dealsOfTheDay .main .cards .mainCard h2 {
+    color: #11161E;
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 16px;
+    margin-left: 42px;
+}
+#dealsOfTheDay .main .cards .mainCard p {
+    color: #444;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 19px;
+    margin-left: 42px;
+    width: 373px;
+}
+#dealsOfTheDay .main .cards .mainCard h4 {
+    color: #11161E;
+    font-family: var(--primaryFont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 42px;
+}
+#dealsOfTheDay .main .cards .mainCard h3 {
+    color: #444;
+    font-family: var(--primaryFont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration-line: strikethrough;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-left: 13px;
+}
+#dealsOfTheDay .main .cards .mainCard a {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    display: block;
+    background-color: #151A32;
+    width: 160px;
+    height: 56px;
+    margin-top: 30px;
+    margin-bottom: 131px;
+    margin-left: 42px;
+}
+#dealsOfTheDay .main ul {
+    text-align: center;
+}
+#dealsOfTheDay .main ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+#dealsOfTheDay .main ul li.slick-active button {
+    background-color: #151A32;
+    width: 56px;
+}
+#dealsOfTheDay .main ul li button {
+    color: transparent;
+    width: 20px;
+    height: 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+/* DEALS OF THE DAY ENDS HERE */
